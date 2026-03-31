@@ -1,3 +1,3 @@
 fun main() {
-    println(SelectionSort(array = intArrayOf(9, 1, 35, 8, 0, 1, 3)).run().contentToString())
+    println(QuickSort().run(intArrayOf(3, 5, 2, 1, 4)).contentToString())
 }
